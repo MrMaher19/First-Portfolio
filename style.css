@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 13vw;
+    height: 18vh;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center; /* Align items vertically center */
+}
+
+nav li {
+    margin-left: 6vw;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+.header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    /* Replace #ff7e5f and #feb47b with your desired color values */
+    /* You can use color names, hex codes, RGB values, etc. */
+    /* The "to right" specifies the direction of the gradient */
+}
+.MRM {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+span {
+    color: rgb(219, 219, 219);
+}
+
+.hire-me {
+    color: white;
+    background-color: #FD6E0A;
+    width: 10vw;
+    height: 9vh;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    display: flex; /* Align button text vertically center */
+    justify-content: center; /* Align button text horizontally center */
+    align-items: center; /* Align button text vertically center */
+}
+.hire-me:hover{
+    background-color:#fd7b1e;
+}
+.porfolio-blog:hover{
+    color: white;
+}
